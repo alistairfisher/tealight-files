@@ -9,5 +9,7 @@ def column():
   for i in range(0,8):
     square(30)
     move(30)
+ turn(180)
+ move 210
 
 column()
