@@ -10,6 +10,6 @@ def column():
     square(30)
     move(30)
   turn(180)
-  move 210
+  move (210)
 
 column()
