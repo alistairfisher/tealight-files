@@ -6,6 +6,6 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 
-turn(3)
+print touch()
 
 # Add your code here
