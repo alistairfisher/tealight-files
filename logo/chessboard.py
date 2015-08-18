@@ -17,6 +17,6 @@ def chessboard():
     column()
     turn(270)
     move(30)
-    #turn()
+    turn(90)
 
 chessboard()
