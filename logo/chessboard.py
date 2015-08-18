@@ -1,4 +1,4 @@
-from tealight.logo import move
+from tealight.logo import move,turn
 
 def corner(x):
   move(10)
