@@ -15,7 +15,7 @@ def column():
 def chessboard():
   for i in range(0,8):
     column()
-    turn(90)
+    turn(270)
     move(30)
     turn(270)
 
