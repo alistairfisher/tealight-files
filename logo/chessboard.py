@@ -1,3 +1,5 @@
+from tealight.logo import move
+
 def corner(x):
   move(10)
   turn(90*x)
