@@ -5,4 +5,9 @@ def square(side):
      move(side)
      turn(90)
 
+def column():
+  for i in range(0,8):
+    square(30)
+    move(30)
+
 square(40)
