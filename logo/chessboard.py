@@ -10,6 +10,11 @@ def column():
     square(30)
     move(30)
   turn(180)
-  move (210)
+  move(210)
 
-column()
+def chessboard():
+  for i in range(0,8):
+    column()
+    turn(90)
+    move(30)
+    turn(270)
