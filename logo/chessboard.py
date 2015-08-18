@@ -10,4 +10,4 @@ def column():
     square(30)
     move(30)
 
-square(40)
+column()
