@@ -18,3 +18,5 @@ def chessboard():
     turn(90)
     move(30)
     turn(270)
+
+chessboard()
