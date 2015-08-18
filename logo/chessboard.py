@@ -1,8 +1,8 @@
 from tealight.logo import move,turn
 
-def corner(x):
-  move(100)
-  turn(90*x)
-  move(10)
+def square(side):
+  for i in range (0,4):
+     move(side)
+     turn(90)
 
-corner(1)
+square(5)
