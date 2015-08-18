@@ -10,7 +10,7 @@ def column():
     square(30)
     move(30)
   turn(180)
-  move(210)
+  move(240)
 
 def chessboard():
   for i in range(0,8):
